@@ -35,7 +35,7 @@ def backup_files(source_dir, dest_dir):
 if __name__ == "__main__":
     # Check if correct number of command-line arguments provided
     if len(sys.argv) != 3:
-        print("Usage: python file_backup.py /path/to/source /path/to/destination")
+        print("Usage: python backup.py /path/to/source /path/to/destination")
         sys.exit(1)
 
     source_dir = sys.argv[1]
